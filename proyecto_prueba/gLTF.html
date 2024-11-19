@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+      <a-sky material="color: #9cc4e2"></a-sky>
+        <a-assets>
+          <a-entity  id="inicio" src="assests/glTF/inicio.glb" position="-13.44254 0 2.94304"></a-entity>
+          <a-entity id="fuente" src="assests/glTF/fuente.glb" position="-0.42113 0 -0.11502"></a-entity>
+        </a-assets>
+      
+        <a-entity gltf-model="#inicio"></a-entity>
+        <a-entity gltf-model="#fuente"></a-entity>
+      </a-scene>
+</body>
+</html>
